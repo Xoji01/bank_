@@ -1,0 +1,337 @@
+{
+  "users": [
+    {
+      "id": "9731",
+      "email": "ruslandjavadov998@gmail.com",
+      "name": "Gradus",
+      "surname": "Overwatch",
+      "password": "1234"
+    },
+    {
+      "id": "a3b9",
+      "email": "asd@gmail.com",
+      "name": "Ivan",
+      "surname": "Grozniy",
+      "password": "1234"
+    },
+    {
+      "id": "3928",
+      "email": "asdd@gmail.com",
+      "name": "asd",
+      "surname": "asd",
+      "password": "1234"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "0.24150729584530173",
+      "created_at": "11.03.2024",
+      "updated_at": "11.03.2024",
+      "user_id": "9731",
+      "name": "Gradus Visa",
+      "currency": "AED",
+      "balance": 9996666
+    },
+    {
+      "id": "0.2252802480345799",
+      "created_at": "11.03.2024",
+      "updated_at": "11.03.2024",
+      "user_id": "9731",
+      "name": "Rubles",
+      "currency": "AED",
+      "balance": 1986197.691904
+    },
+    {
+      "id": "0.3094668400229559",
+      "created_at": "11.03.2024",
+      "updated_at": "11.03.2024",
+      "user_id": "9731",
+      "name": "Dollars",
+      "currency": "USD",
+      "balance": "1000000"
+    },
+    {
+      "id": "0.7187730500745224",
+      "created_at": "12.03.2024",
+      "updated_at": "12.03.2024",
+      "user_id": "3928",
+      "name": "asd",
+      "currency": "USD",
+      "balance": 5544264.821442
+    }
+  ],
+  "transactions": [
+    {
+      "id": "9052",
+      "created_at": "20240311, 17:49",
+      "updated_at": "17:49:29",
+      "user_id": "9731",
+      "wallet": {
+        "created_at": "11.03.2024",
+        "updated_at": "11.03.2024",
+        "name": "Rubles",
+        "currency": "RUB",
+        "balance": 49950000
+      },
+      "total": "50000",
+      "category": "car",
+      "description": "tesla",
+      "wallet_id": "0.2252802480345799"
+    },
+    {
+      "id": "e5f8",
+      "created_at": "20240311, 17:57",
+      "updated_at": "17:57:05",
+      "user_id": "9731",
+      "wallet": {
+        "created_at": "11.03.2024",
+        "updated_at": "11.03.2024",
+        "name": "Rubles",
+        "currency": "RUB",
+        "balance": 49940000
+      },
+      "total": "10000",
+      "category": "burger",
+      "description": "burger",
+      "wallet_id": "0.2252802480345799"
+    },
+    {
+      "id": "398d",
+      "created_at": "20240311, 17:57",
+      "updated_at": "17:57:24",
+      "user_id": "9731",
+      "wallet": {
+        "created_at": "11.03.2024",
+        "updated_at": "11.03.2024",
+        "name": "Rubles",
+        "currency": "RUB",
+        "balance": 49939000
+      },
+      "total": "1000",
+      "category": "fries",
+      "description": "fries",
+      "wallet_id": "0.2252802480345799"
+    },
+    {
+      "id": "2d37",
+      "created_at": "20240311, 18:26",
+      "updated_at": "18:26:27",
+      "user_id": "9731",
+      "wallet": {
+        "created_at": "11.03.2024",
+        "updated_at": "11.03.2024",
+        "name": "Rubles",
+        "currency": "RUB",
+        "balance": 49937000
+      },
+      "total": "2000",
+      "category": "rr",
+      "description": "rr",
+      "wallet_id": "0.2252802480345799"
+    },
+    {
+      "id": "0ca0",
+      "created_at": "20240311, 18:26",
+      "updated_at": "18:26:39",
+      "user_id": "9731",
+      "wallet": {
+        "created_at": "11.03.2024",
+        "updated_at": "11.03.2024",
+        "name": "Rubles",
+        "currency": "RUB",
+        "balance": 49936000
+      },
+      "total": "1000",
+      "category": "tt",
+      "description": "tt",
+      "wallet_id": "0.2252802480345799"
+    },
+    {
+      "id": "58a7",
+      "created_at": "20240311, 18:26",
+      "updated_at": "18:26:46",
+      "user_id": "9731",
+      "wallet": {
+        "created_at": "11.03.2024",
+        "updated_at": "11.03.2024",
+        "name": "Rubles",
+        "currency": "RUB",
+        "balance": 49930100
+      },
+      "total": "5900",
+      "category": "gg",
+      "description": "gg",
+      "wallet_id": "0.2252802480345799"
+    },
+    {
+      "id": "b516",
+      "created_at": "20240311, 18:26",
+      "updated_at": "18:26:57",
+      "user_id": "9731",
+      "wallet": {
+        "created_at": "11.03.2024",
+        "updated_at": "11.03.2024",
+        "name": "Rubles",
+        "currency": "RUB",
+        "balance": 49925656
+      },
+      "total": "4444",
+      "category": "hh",
+      "description": "hh",
+      "wallet_id": "0.2252802480345799"
+    },
+    {
+      "id": "4924",
+      "created_at": "20240311, 18:28",
+      "updated_at": "18:28:23",
+      "user_id": "9731",
+      "wallet": {
+        "created_at": "11.03.2024",
+        "updated_at": "11.03.2024",
+        "name": "Rubles",
+        "currency": "AED",
+        "balance": 1986197.691904
+      },
+      "total": "30000",
+      "category": "jjj",
+      "description": "jjj",
+      "wallet_id": "0.2252802480345799"
+    },
+    {
+      "id": "cb71",
+      "created_at": "20240311, 19:1",
+      "updated_at": "19:01:44",
+      "user_id": "9731",
+      "wallet": {
+        "created_at": "11.03.2024",
+        "updated_at": "11.03.2024",
+        "name": "Gradus Visa",
+        "currency": "AED",
+        "balance": 9996666
+      },
+      "total": "3333",
+      "category": "333",
+      "description": "33",
+      "wallet_id": "0.24150729584530173"
+    },
+    {
+      "id": "4169",
+      "created_at": "20240312, 20:27",
+      "updated_at": "20:27:20",
+      "user_id": "3928",
+      "wallet": {
+        "created_at": "12.03.2024",
+        "updated_at": "12.03.2024",
+        "name": "asd",
+        "currency": "AED",
+        "balance": 22222111
+      },
+      "total": "111",
+      "category": "1111",
+      "description": "11",
+      "wallet_id": "0.7187730500745224"
+    },
+    {
+      "id": "24e3",
+      "created_at": "20240312, 20:32",
+      "updated_at": "20:32:56",
+      "user_id": "3928",
+      "wallet": {
+        "created_at": "12.03.2024",
+        "updated_at": "12.03.2024",
+        "name": "asd",
+        "currency": "AFN",
+        "balance": 438197582.80789
+      },
+      "total": "444444",
+      "category": "44",
+      "description": "44",
+      "wallet_id": "0.7187730500745224"
+    },
+    {
+      "id": "a715",
+      "created_at": "20240313, 20:27",
+      "updated_at": "20:27:40",
+      "user_id": "3928",
+      "wallet": {
+        "created_at": "12.03.2024",
+        "updated_at": "12.03.2024",
+        "name": "asd",
+        "currency": "AFN",
+        "balance": 438195382.80789
+      },
+      "total": "2200",
+      "category": "322",
+      "description": "222",
+      "wallet_id": "0.7187730500745224"
+    },
+    {
+      "id": "65d5",
+      "created_at": "20240313, 20:27",
+      "updated_at": "20:27:44",
+      "user_id": "3928",
+      "wallet": {
+        "created_at": "12.03.2024",
+        "updated_at": "12.03.2024",
+        "name": "asd",
+        "currency": "AFN",
+        "balance": 438195160.80789
+      },
+      "total": "222",
+      "category": "2",
+      "description": "222",
+      "wallet_id": "0.7187730500745224"
+    },
+    {
+      "id": "c352",
+      "created_at": "20240313, 20:27",
+      "updated_at": "20:27:47",
+      "user_id": "3928",
+      "wallet": {
+        "created_at": "12.03.2024",
+        "updated_at": "12.03.2024",
+        "name": "asd",
+        "currency": "AFN",
+        "balance": 438190716.80789
+      },
+      "total": "4444",
+      "category": "44",
+      "description": "4",
+      "wallet_id": "0.7187730500745224"
+    },
+    {
+      "id": "635e",
+      "created_at": "20240313, 20:27",
+      "updated_at": "20:27:51",
+      "user_id": "3928",
+      "wallet": {
+        "created_at": "12.03.2024",
+        "updated_at": "12.03.2024",
+        "name": "asd",
+        "currency": "AFN",
+        "balance": 438180717.80789
+      },
+      "total": "9999",
+      "category": "9",
+      "description": "99",
+      "wallet_id": "0.7187730500745224"
+    },
+    {
+      "id": "f33d",
+      "created_at": "20240313, 20:28",
+      "updated_at": "20:28:31",
+      "user_id": "3928",
+      "wallet": {
+        "created_at": "12.03.2024",
+        "updated_at": "12.03.2024",
+        "name": "asd",
+        "currency": "USD",
+        "balance": 5544264.821442
+      },
+      "total": "500000",
+      "category": "ferrari",
+      "description": "f9",
+      "wallet_id": "0.7187730500745224"
+    }
+  ]
+}

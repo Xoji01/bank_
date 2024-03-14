@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+
+// html {
+//   height: 100%;
+// }
+
+img {
+  max-width: 100%;
+}
+
+.active_page {
+  color: #0047FF;
+  font-weight: bold;
+}
+
+.toaster {
+  width: fit-content;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: medium;
+  border-radius: 7px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  transition: 1s ease;
+  color: white;
+  font-size: 24px;
+
+  .time_bar {
+    width: 100%;
+    height: 6px;
+    background-color: #0ac900;
+    border-bottom-left-radius: 7px;
+    // border-bottom-right-radius: 7px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    animation: time_bar 4s linear forwards;
+  }
+}
+
+.toaster_error {
+  border: 2px solid rgb(255, 0, 140);
+  background-color: rgb(246, 86, 86);
+}
+.toaster_success {
+  border: 2px solid rgb(0, 255, 13);
+  background-color: rgb(5, 223, 38);
+}
+.toaster_massage {
+  border: 2px solid rgb(0, 4, 255);
+  background-color: rgb(9, 124, 255);
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.latest_transactions {
+
+  & h1 {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  #latest_transactions_table {
+    width: 100%;
+
+    th {
+      font-family: Gilroy;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #B9C0D1;
+      padding-block: 5px;
+    }
+
+    td {
+      border-bottom: 2px solid #7c7c7c46;
+      font-family: Gilroy;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding-block: 10px;
+    }
+
+    td:nth-last-child(1), th:nth-last-child(1) {
+      text-align: right;
+    }
+
+    td:nth-last-child(2), th:nth-last-child(2) {
+      text-align: center;
+    }
+    td:nth-child(2), th:nth-child(2) {
+      text-align: center;
+    }
+  }
+  
+  #all_transactions_link {
+    font-weight: 600;
+    margin-top: 20px;
+    display: block;
+    color: #0047FF;
+  }
+}
+
+img{
+  max-width: 100%;
+}
+.wrap{
+  width: 1200px;
+  margin: 30px auto;
+}
+.first {
+  h1{
+      font-size: 48px;
+      margin-bottom: 1%;
+      line-height: 59.42px;
+  }
+  .email{
+      cursor: pointer;
+      font-size: 18px;
+      color: #0047FF;
+      font-weight: 700;
+      line-height: 22.28px;
+  }
+  .cards{
+      margin-block: 70px;
+      h2{
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 29.11px;
+      }
+      .pocket{
+        padding-top: 25px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0047FF;
+        text-decoration: underline #0047FF;
+      }
+  }
+}
+.reload{
+      margin-block: 15px;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      .card_visa{
+          position: relative;
+          width: 282px;
+          height: 160px;
+          border-radius: 15px;
+          h3{
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 29px;
+              color: white;
+              margin: 10px 20px;
+          }
+          p{
+              margin: 0 20px;
+              position: absolute;
+              bottom: 10px;
+              color: white;
+          }
+      }
+  }
+header{
+  img {
+      width: 20%;
+      height: 20%;
+  }
+  
+  
+  a {
+      color: black;
+  }
+  
+  .box {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      height: 70px;
+      background-color: #F0F0F0;
+      align-items: center;
+     
+  }
+  
+  
+  .btn {
+      color: red;
+      width: 50%;
+      height: 50%;
+      border: none;
+      cursor: pointer;
+  }
+  
+  .box_l {
+      display: flex;
+      gap: 30px;
+  }
+  .box_r {
+      display: flex;
+      gap: 20px;
+  }
+}
+
+@keyframes toaster {
+  0% {
+    right: -100%;
+  }
+
+  20% {
+    right: 30px;
+  }
+
+  80% {
+    right: 30px;
+  }
+
+  100% {
+    right: -100%;
+  }
+}
+
+.toaster-anim {
+  animation: toaster 5s ease;
+}
+
+@keyframes time_bar {
+  from{
+    width: 100%;
+  } 
+
+  to{
+    width: 0%;
+  }
+}
